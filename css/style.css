@@ -74,24 +74,13 @@ input {
     margin:0 0 5px;
     padding:10px;
     border-radius:5px;
+}
 
-    ::-webkit-input-placeholder {
-        color:#888;
-    }
-    :-moz-placeholder {
-        color:#888;
-    }
-    ::-moz-placeholder {
-        color:#888;
-    }
-    :-ms-input-placeholder {
-        color:#888;
-    }
-
-
-    
-
-
-     
-
-
+textarea{
+    column-span: 6
+}
+#msg1, #msg4{
+    color: red;
+    font-size: 12px;
+    text-align: center;
+}

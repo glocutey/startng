@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GLORIA CHINEDU'S RESUME</title>
      <link rel="stylesheet" type="text/css" href="css/style.css">
+     z
 </head>
 <body>
     <div class="header">
@@ -105,34 +106,38 @@
           <h4>Fill in the form below, and I'll get back to you within 24 hours.</h4>
           <div>
                   <label>
-                          <span>Name: (required)</span>
-                          <input placeholder="Please enter your name" type="text" tabindex="1" required autofocus>
+                          <span>Name:</span>
+                          <input name="name" placeholder="Please enter your name" type="text" tabindex="1" required autofocus>
                   </label>
           </div>
+          <p id="msg1"></p>
           <div>
                   <label>
-                          <span>Email: (required)</span>
-                          <input placeholder="Please enter your email address" type="email" tabindex="2" required>
+                          <span>Email:</span>
+                          <input name="email" placeholder="Please enter your email address" type="email" tabindex="2" required>
                   </label>
           </div>
+          <p id="msg2"></p>
           <div>
                   <label>
-                          <span>Title: (required)</span>
-                          <input placeholder="Please enter your message title" type="tel" tabindex="3" required>
+                          <span>Title:</span>
+                          <input name="title" placeholder="Please enter your message title" type="text" tabindex="3" required>
                   </label>
           </div>
+          <p id="msg3"></p>
           <div>
                   <label>
-                          <span>Message: (required)</span>
-                          <textarea placeholder="Include all the details you can" tabindex="5" required></textarea>
+                          <span>Message:</span>
+                          <textarea rows="5" cols="80" name="message" placeholder="Include all the details you can" tabindex="5" required></textarea>
                   </label>
           </div>
+          <p id="msg4"></p>
           <div>
                   <button name="submit" type="submit" id="contact-submit">Send Email</button>
           </div>
   </form>
   
-    
+  <script src="js/script.js"></script>
     
 </body>
 </html>
