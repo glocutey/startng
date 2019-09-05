@@ -1,5 +1,5 @@
 *{  border-radius: 5px;
-    padding: 10px;
+    padding: 4px;
     margin: 0;
     
     
@@ -83,4 +83,7 @@ textarea{
     color: red;
     font-size: 12px;
     text-align: center;
+}
+#contact-form label span{
+    width: 600px !important;
 }
